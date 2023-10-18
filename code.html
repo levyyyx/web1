@@ -1,27 +1,24 @@
-<!DOCTYPE html> 
-<html> 
-  <head> 
-    <style> 
-      .box { 
-        background-color: #006400; /* Define a cor de fundo como azul ⚫*/
-        
-        border: 10px solid #e74c3c; /* Define una borda vermelha com 2 pixels de espessura */        
-        
-        width: 200px; /* Define a largura cono 200 pixels */ 
-        
-        height: 150px; /* Define a altura como 150 pixels */ 
-        
-        margin: margin: 20px auto; /* Centraliza o elemento horizontalmente na página 7*/ 
-        
-        text-align: center; /* Centraliza o conteúdo de texto horizontalmente */ 
-        line-height: 150px; /* Centraliza o conteúdo de texto verticalmente */ 
-        
-        color: #Defff; /* Define a cor do texto como branco */ 
-    </style> 
-  </head> 
-  <body> 
-    <div 
-         class="box"> Caixa da Maconha
-   </div> 
-  </body> 
+<html>
+  <head>
+    <style>
+      .elemento{
+       width:150px;
+       height: 150px;
+       background-color:#FF00FF;
+       animation:mover-direita 3s linear infinite;
+      }
+     
+      @keyframes mover-direita{
+        0%{
+          transform:translateX(0);
+        }
+        100%{
+          transform: translateX(100%);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="elemento"></div>
+  </body>
 </html>
