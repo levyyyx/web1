@@ -1,2 +1,2 @@
-# web1
-para fins utopicos, saboneteiros, siririqueiros e terroristas.
+# web1 
+Pense primeiro
