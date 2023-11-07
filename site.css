@@ -1,0 +1,54 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color:#000;
+  color:#fff;
+  padding: 10px;
+  text-align:center;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin0: 0;
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav li{
+  display: inline;
+  margin-right: 80px;
+}
+
+nav a{
+  text-decoration:none;
+  color: #000;
+  font-weight: bold;
+  transmition: color 0.3s;
+}
+
+nav a:hover{
+  color: #ff6600
+}
+
+@keyframes fadelIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header {
+  animation: fadeIn 5s ease-in-out;
+}
+
+img1 {
+  display:flex;
+  align:center;
+}
